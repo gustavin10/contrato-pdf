@@ -1,6 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 const contratosRouter = require('./routes/contratos');
+require('./seed');
 
 const app = express();
 const PORT = process.env.PORT || 3333;
